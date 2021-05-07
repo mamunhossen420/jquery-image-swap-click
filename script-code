@@ -1,0 +1,28 @@
+<script>
+          jQuery(document).ready(function ($) {
+
+            $('.click-classname1-your').on({
+                'click': function () {
+                    $('#change-image').attr('src', 'https://cdn.jhmrad.com/wp-content/uploads/nice-house-inside-beautiful-interior-home-designs_496737.jpg');
+                }
+            });
+
+            $('.click-classname2-your').on({
+                'click': function () {
+                    $('#change-image').attr('src', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR455Gkp82XeQ3xlIVqwqsPWrZNKwJYV3gbWA&usqp=CAU');
+                }
+            });
+
+            $('.click-classname3-your').on({
+                'click': function () {
+                    $('#change-image').attr('src', 'https://lh3.googleusercontent.com/proxy/jMFuFhfRoZ4imC348_Gd1qyUkPwZ2OHNMjXMJ_n5_fCKjBbWkAEhTOan1RSm02nLHCgfUAxZNo-h7uu-7rfG40JKHPn_V2s92sHECKpj-DbG3CG_35zpUAOJ8Qy26AOE0cyE3NLGHphVjs_CLwHRc63A8eW8AziMqcNm=s0-d');
+                }
+            });
+
+            $('.click-classname4-your').on({
+                'click': function () {
+                    $('#change-image').attr('src', 'https://i.ytimg.com/vi/1oJgVGp_S0g/maxresdefault.jpg');
+                }
+            });
+        });
+    </script>
