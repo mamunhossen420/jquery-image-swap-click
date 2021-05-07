@@ -3,7 +3,7 @@
 
             $('.click-classname1-your').on({
                 'click': function () {
-                    $('#change-image').attr('src', 'https://cdn.jhmrad.com/wp-content/uploads/nice-house-inside-beautiful-interior-home-designs_496737.jpg');
+                    $('#change-image').attr('src', 'your-image-link');
                 }
             });
 
